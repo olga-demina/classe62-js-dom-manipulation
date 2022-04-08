@@ -1,0 +1,19 @@
+.red {
+    color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.m-top {
+    margin-top: 2rem;
+}
+
+.result {
+    border: 1px solid red
+}
+
+.d-none {
+    display: none;
+}

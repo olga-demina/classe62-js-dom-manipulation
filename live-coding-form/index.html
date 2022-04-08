@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="form-item">
+                <label for="user-name">Nome utente</label>
+                <input type="text" name="user-name" id="user-name">
+            </div>
+
+            <div class="form-item m-top">
+                <label for="user-color">Il tuo colore preferito</label>
+                <select name="user-color" id="user-color">
+                    <option value=""></option>
+                    <option value="verde">Verde</option>
+                    <option value="rosso">Rosso</option>
+                    <option value="blu">Blu</option>
+                </select>
+            </div>
+
+            <button class="m-top" id="form-btn">Invia</button>
+            <button class="m-top" id="form-clear-btn">Annulla</button>
+        </div>
+
+        <div class="result m-top d-none">
+            <h2>Ciao Nome utente</h2>
+            <p>Il tuo colore prederito</p>
+        </div>
+        
+
+        <script src="js/script.js" type="text/javascript"></script>
+    </body>
+</html>
